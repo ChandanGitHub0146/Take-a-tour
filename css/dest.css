@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.cartt {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cartt img{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #029D9D;
+    border-radius: 2%;
+}
+
+.cartt img:hover{
+    transform: scale(1.05);
+    z-index: 2;
+    box-shadow: 0 8px 8px gray;
+}
+
+.cartt h1{
+    text-align: left;
+    font-family: heebo,sans-serif;
+}
+
+.cartt p{
+    text-align: left;
+    font-family: heebo,sans-serif;
+    font-size: 14px;
+}
+
+.cartt h4{
+    text-align: left;
+    font-family: heebo,sans-serif;
+    font-size: 25px;
+}
+
+.cartt .my-button{
+    background-color: #fff;
+    color: #029D9D;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #029D9D;
+}
+
+.cartt .my-button:hover{
+    background-color: #fff;
+    color:red;
+    border: solid 1px #029D9D;
+}
